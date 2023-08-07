@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img2{
+    width: 200px;
+}
+body{
+    background-color: rgb(4, 2, 24);
+    color: #fff;
+}
+@media only screen and (max-width: 428px) {
+    .img2{
+        width: 150px;
+    }
+    .movie_container{
+        gap: 5px;
+    }
+}
